@@ -11,7 +11,8 @@ int main() {
 
   for (i = 1; i < n; i++)
     for (j = i + 1; j <= n; j++)
-      if ((a[i] % 2 == 0 && a[j] % 2 == 0) || (a[i] % 2 == 1 && a[j] % 2 == 1))
+      if ((a[i] % 2 == 0 && a[j] % 2 == 0) ||
+            (a[i] % 2 == 1 && a[j] % 2 == 1))
         cout << a[i] << " " << a[j] << endl;
   f.close();
   return 0;

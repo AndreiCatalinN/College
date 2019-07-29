@@ -17,19 +17,11 @@ int main() {
     cout << v[i] << " ";
   }
   cout << endl;
-  /**  for(i=1;i<=n;i++)
-        if(v[i]==0)
-            { inserare(v,n,i+1,1);
-                inserare(v,n,i+2,2);
-                inserare(v,n,i+3,3);}
-    for(i=1;i<=n;i++)
-            cout<<v[i]<<" ";**/
-
-  cout << endl;
   for (i = 1; i <= n; i++)
     if (v[i] == 0)
       for (j = 0; j < 3; j++)
         inserare(v, n, i + 1, a[j]);
+
   for (i = 1; i <= n; i++)
     cout << v[i] << " ";
 

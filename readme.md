@@ -1,0 +1,17 @@
+This repository contains the following algorithms:
+ - reading files
+ - writing to files
+ - delete numbers from arrays
+ - insert numbers into arrays
+ - determine if a number is prime
+ - determine if a number or a series of numbers follow a pattern
+ - create frequency array
+ - sum of the digits of a number
+ - reverse of a number
+ - structure manipulation
+ - fibonacci series
+ - recursivity
+ - sorting arrays
+ - parsing 2D arrays
+ - generate 2D arrays based on a rule
+ - and many others
