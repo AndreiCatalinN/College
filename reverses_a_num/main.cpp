@@ -7,27 +7,29 @@ all the 0's to the end of the number.
 
 using namespace std;
 
-int x, y, p, po;
+int x,y,p,po;
 
-int main() {
-  cout << "x=";
-  cin >> x;
-  cout << endl;
+int main()
+{
+    cout<<"x=";
+    cin>>x;
+    cout<<endl;
 
-  p = 1;
-  po = 1;
-  y = 0;
+    p=1;
+    po=1;
+    y=0;
 
-  while (x != 0) {
-    if (x % 10 == 0)
-      po = po * 10;
-    else
-      y = y * 10 + x % 10;
-    x = x / 10;
-  }
+    while(x!=0)
+    {
+        if(x%10==0)
+            po=po*10;
+        else
+            y= y*10+ x%10;
+        x=x/10;
+    }
 
-  y = y * po;
-  cout << y;
+    y=y*po;
+    cout<<y;
 
-  return 0;
+    return 0;
 }
